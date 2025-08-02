@@ -1,0 +1,4 @@
+Usar build.sh /carpeta_codigoCPP y listo
+
+Just in case we use FMT custom version
+g++ -Wall -Wextra -Werror -pedantic -g -O0 --std=c++20 -o testing/test.out testing/test.cpp -I fmt-11.2.0/include
