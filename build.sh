@@ -6,7 +6,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m'
 
 SOURCE_FILE="${1:-main.cpp}"
-OUTPUT_FILE="${SOURCE_FILE%.cpp}.out"
+OUTPUT_FILE="${SOURCE_FILE%.cpp}.bin"
 
 if [[ ! -f "$SOURCE_FILE" ]]; then
   printf "${RED}❌ Error: El archivo '$SOURCE_FILE' no existe.${NC}\n"
